@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - MobileShop</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Boxicons for Menu Icon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="../Css/global-header.css">
+    <link rel="stylesheet" href="../Css/faq.css">
+</head>
+<body>
+    <!-- Header -->
+ <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Nexon</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="phones.html">Phones</a>
+                <a href="pc.html">Laptop</a>
+                <a href="tablets.html">Ipads</a>
+                <a href="airpods.html">AirPods</a>
+                <a href="cameras.html">Cameras</a>
+                <a href="accessories.html">Accessories</a>
+                <a href="about.html">About</a>
+                <a href="login.html">Login/SignUp</a>
+                <a href="faq.html" class="active">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our products and services</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search FAQs...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <!-- Categories -->
+            <div class="faq-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="shipping">Shipping</button>
+                <button class="category-btn" data-category="payment">Payment</button>
+                <button class="category-btn" data-category="returns">Returns</button>
+                <button class="category-btn" data-category="warranty">Warranty</button>
+                <button class="category-btn" data-category="account">Account</button>
+            </div>
+
+            <!-- FAQ Items -->
+            <div class="faq-container">
+                <!-- Shipping FAQs -->
+                <div class="faq-item" data-category="shipping">
+                    <div class="faq-question">
+                        <h3>What are your shipping rates?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer free shipping on orders over $50. For orders under $50, the standard shipping fee is $5.99. Express shipping is available for $12.99, with delivery in 2-3 business days.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="shipping">
+                    <div class="faq-question">
+                        <h3>How long does shipping take?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Standard shipping typically takes 5-7 business days. Express shipping takes 2-3 business days. International orders may take 10-14 business days depending on the destination.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="shipping">
+                    <div class="faq-question">
+                        <h3>Can I track my order?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Once your order ships, you'll receive an email with a tracking number. You can use this number to track your package in real-time on our website or the carrier's website.</p>
+                    </div>
+                </div>
+
+                <!-- Payment FAQs -->
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers for orders over $100.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>Is my payment information secure?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We use SSL encryption and PCI DSS compliance to protect your payment information. Your data is never stored on our servers and is processed securely through encrypted channels.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>Do you offer installment payments?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! For orders over $200, we offer 3, 6, or 12-month installment plans through select payment partners. Interest-free options are available for qualified purchases.</p>
+                    </div>
+                </div>
+
+                <!-- Returns FAQs -->
+                <div class="faq-item" data-category="returns">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day money-back guarantee on all products. Items must be unused, in original packaging, and in resalable condition. Simply contact our support team to initiate a return.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="returns">
+                    <div class="faq-question">
+                        <h3>Do you cover return shipping?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For defective or damaged items, we provide a pre-paid return label. For returns due to change of mind, return shipping is the customer's responsibility. However, returns over $100 include free return shipping.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="returns">
+                    <div class="faq-question">
+                        <h3>How long does a refund take?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Once we receive and inspect your returned item, we process the refund within 3-5 business days. The refund will appear in your account within 5-7 business days depending on your financial institution.</p>
+                    </div>
+                </div>
+
+                <!-- Warranty FAQs -->
+                <div class="faq-item" data-category="warranty">
+                    <div class="faq-question">
+                        <h3>What warranty do products come with?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All products come with a standard 1-year manufacturer's warranty covering defects in materials and workmanship. Extended warranty options (2-3 years) are available for purchase at checkout.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="warranty">
+                    <div class="faq-question">
+                        <h3>Does the warranty cover accidental damage?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The standard warranty covers manufacturing defects only. However, we offer optional accidental damage protection plans that cover drops, spills, and other accidents. Customers can add this at checkout.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="warranty">
+                    <div class="faq-question">
+                        <h3>How do I claim warranty service?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To claim warranty service, visit our support page and upload photos of the defective item. Our team will review your claim and either authorize a repair, replacement, or refund within 24-48 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Account FAQs -->
+                <div class="faq-item" data-category="account">
+                    <div class="faq-question">
+                        <h3>How do I create an account?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Click the "Sign Up" button in the top navigation, then enter your email and create a password. You can also sign up using your Google or Facebook account for faster registration.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="account">
+                    <div class="faq-question">
+                        <h3>Is creating an account required to purchase?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, you can check out as a guest. However, creating an account allows you to track orders, save items to your wishlist, and receive personalized recommendations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="account">
+                    <div class="faq-question">
+                        <h3>How do I reset my password?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Click "Forgot Password" on the login page, enter your email address, and we'll send you a reset link. Click the link and create a new password within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Still have questions?</h2>
+            <p>Can't find the answer you're looking for? Our support team is here to help.</p>
+            <div class="contact-options">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Support</h3>
+                    <p>support@mobileshop.com</p>
+                    <a href="mailto:support@mobileshop.com" class="btn-contact">Send Email</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone Support</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <a href="tel:+15551234567" class="btn-contact">Call Us</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Live Chat</h3>
+                    <p>Available 9 AM - 6 PM EST</p>
+                    <a href="contact.html" class="btn-contact">Start Chat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>MobileShop is your trusted destination for premium electronics and gadgets.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MobileShop. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navbar = document.querySelector(".navbar");
+
+      if (hamburger && navbar) {
+        hamburger.addEventListener("click", () => {
+          navbar.classList.toggle("active");
+        });
+
+        // Close menu when a link is clicked
+        navbar.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            navbar.classList.remove("active");
+          });
+        });
+      }
+
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+          alert("Your Message Has Been Sent Thank You");
+          // Optionally, reset the form after submission
+          this.reset();
+        });
+    </script>
+    <script src="../JS/global-header.js"></script>
+    <script src="../JS/faq.js"></script>
+</body>
+</html>
